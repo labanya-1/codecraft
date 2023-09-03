@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(247, 244, 244);
+}
+body{
+   
+    /* background-size: cover; */
+    background-color: #050505;
+    /* background-repeat: no-repeat; */
+    height:100vh; 
+    width: 100vw; 
+    background-position: center;
+    background-attachment: fixed;
+    overflow: auto; /
+}
+.imageMiddle{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    z-index: 1;
+    top: -76px;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 10px;
+    height: 60px;
+    width: 100vw;
+    background-color: black;
+}
+#links{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 60px;
+    background-color:#333;
+    color: white;
+    height: 35px;
+    border-radius: 21px;
+
+}
+li{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#buttondiv{
+    height: 35px;
+    width: 10vw;
+    background-color: #ff6600;
+    color: #fff;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#buttondivbottom{
+    height: 35px;
+    width: 10vw;
+    background-color: #ff6600;
+    color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#iconLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+.imgIcons{
+    height: 31px;
+    width: 31px;
+    margin-left: 10px;
+}
+.nextbody{
+    display: flex;
+    width:100%;
+    /* border: solid blue; */
+    /* height: 100vh; */
+    flex-direction: column;
+    gap: 76px;
+    position: absolute;
+    z-index: 1;
+}
+.nextbody1{
+    display: flex;
+    width:100%;
+    position: relative;
+    background-color: #050505;
+    z-index: 0;
+}
+.nextbodyheading{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    width:50%;
+    margin-top:50px
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+.nextbodyheadinghead{
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px;
+    width:50%;
+    margin-top:70px;
+    /* border: solid black; */
+}
+#searchdiv{
+    width: 30%;
+    height: 40px;
+    background-color: #333 ;
+    border-radius:  30px;
+    margin-top: 10px;
+}
+
+.orbit {
+    width: 300px; 
+    height: 300px;
+    /* position: relative; */
+    margin-top: 118px;
+    margin-left: 115px;
+
+    /* border: 2px solid #b8babc; */
+  }
+  
+  .app {
+    width: 60px;
+    height: 60px;
+    /* background-color: #3498db;  */
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    transform-origin: center center;
+    transform: rotate(0deg) translateX(140px) rotate(0deg); 
+    transition: transform 0.5s;
+    
+  }
+  .imgIconslist{
+    border-radius: 50%;
+    width: 60px; 
+    height: 60px;
+    
+  }
+  #react {
+    transform: rotate(72deg) translateX(140px) rotate(-72deg);
+  }
+  
+  #typescript {
+    transform: rotate(144deg) translateX(140px) rotate(-144deg);
+  }
+  
+  #html {
+    transform: rotate(216deg) translateX(140px) rotate(-216deg);
+  }
+  
+  #js {
+    transform: rotate(288deg) translateX(140px) rotate(-288deg);
+  }
+  
+  
